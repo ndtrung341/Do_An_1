@@ -1,0 +1,32 @@
+.footer{
+    /* background: #292929; */
+    background-image: linear-gradient(to left bottom,#662D8C,#ED1E79);
+
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col{
+    color:#fff;
+    width: calc(33.333% - 20px);
+    font-size: 1.4rem;
+}
+.footer-col p{
+    margin-bottom: 10px;
+}
+.footer-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom:1px solid orange ;
+}
+.footer-copyright{
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}

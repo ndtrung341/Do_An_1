@@ -1,0 +1,265 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+:root{
+  --primary-bg-color:#131635;
+}
+html{
+    font-size: 62.5%;
+    font-family: ' Roboto, Helvetica, Arial', sans-serif;
+}
+body{
+    /* background-color: #f3f3f3; */
+    /* background-image: linear-gradient(
+              to right,
+              #A73EF5,
+              #FB53E1
+            ); */
+            /* background-image: linear-gradient(to bottom, #868F96, #596164); */
+            background-color: #f4f4f4;
+
+}
+span{
+    display: block;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.container{
+    max-width: 85%;
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+    margin: auto;
+}
+.btn{
+    /* padding: 6px 12px; */
+    font-weight: 700;
+}
+::placeholder{
+    color:#c5c5c5;
+    font-size: 1.5rem;
+}
+a,a:hover{
+    text-decoration: none !important;
+    color: #000;
+}
+button{
+    outline: none !important;
+    cursor: pointer;
+    border: 0;
+    background: none;
+    padding: 0;
+}
+.title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    color: #333;
+}
+.read-more{
+    display: block;
+    padding:10px 15px;
+    font-size: 1.6rem;
+    color:#fff;
+    background-color: orange;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.hidden{
+    display: none;
+}
+.product-link{
+    display: block;
+}
+.product-img{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.product-img img{
+    width: 100%;
+    object-fit: contain;
+}
+.product-name{
+    color: rgb(65, 65, 65);
+    font-size: 1.4rem;
+}
+.product-price{
+    font-size: 1.5rem;
+    color: #ee4d6a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.add-cart{
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid orange;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.cart-img__product img{
+    object-fit: contain;
+}
+.login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 1000;
+    display: none;
+}
+.modal-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: hidden;
+}
+.modal-body{
+    width: 600px;
+    /* height: 250px; */
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    display: flex;
+    padding: 0;
+    background-image: url("../img/loginbanner.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.lbl_info{
+    font-size: 1.5rem;
+    color: #737373;
+    margin-bottom: 10px;
+}
+.txt_info{
+    width: 100%;
+    height: 25px;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: 1px solid #737373;
+}
+.login__info{
+    /* display: flex;
+    align-items: center; */
+    margin-top: 20px;
+}
+.login-title{
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.txt_info{
+    margin-left: auto;
+
+}
+.login_content{
+    /* flex: 1; */
+    width: 300px;
+    margin-left: auto;
+    padding: 20px 30px;
+    position: relative;
+    background-color: #fff;
+}
+
+.btn-login{
+    font-size: 1.4rem;
+    background-color: orange;
+    color:#fff;
+    padding: 10px 20px;
+    margin-top: 30px;
+    float: right;
+}
+.open-modal{
+    overflow-y: hidden;
+}
+.open-modal .login{
+    display: block;
+}
+.btn-close{
+    position: absolute;
+    font-size: 2rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    color: #fff;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    right: -15px;
+    top: -15px;
+    cursor: pointer;
+}
+.logout{
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    background-color: #fff;
+    width: 120px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3.125rem 0 rgb(0 0 0 / 20%);
+    font-size: 1.6rem;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: all .3s linear;
+    z-index: 50;
+    cursor: pointer;
+}
+.logout::before {
+    content: "";
+    height: 20px;
+    width: 50%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    transform: translateY(-100%);
+}
+.logout::after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 15px;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+.header-user__info:hover .logout{
+    transform: scaleY(1);
+    transform-origin: top center;
+}
+.header-user__info{
+    display: none;
+}
+.message{
+    color: red;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+.question{
+    font-size: 1.2rem;font-style: italic;
+    color:blue;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.signup{
+    display: none;
+}

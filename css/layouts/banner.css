@@ -1,0 +1,81 @@
+.banner{
+    margin-top: 20px;
+}
+.banner-inner{
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.banner-left{
+    width: 85%;
+    margin-right: 20px;
+}
+.carousel{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+    position: relative;
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.1);
+    z-index: 10;
+}
+.carousel-control-prev,.carousel-control-next{
+    z-index: 20;;
+}
+.banner-img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+.carousel-title{
+    position: absolute;
+    font-size: 2.2rem;
+    /* width: 100%; */
+    text-transform: uppercase;
+    color: #000;
+    left: 100px;
+    opacity: 0;
+    top: 0px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    white-space: nowrap;
+    animation: animateText 1s linear .5s forwards;
+}
+@keyframes animateText{
+    100%{
+        top: 20px;
+        opacity: 1;
+    }
+}
+@keyframes animateBtn{
+    100%{
+        bottom: 50px;
+        opacity: 1;
+    }
+}
+.banner-link{
+    position: absolute;
+    display: inline-block;
+    padding: 10px 15px ;
+    color: #fff;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 1.5rem;
+    left: 100px;
+    bottom: 0;
+    border-radius: 10px;
+    opacity: 0;
+    animation: animateBtn 1s linear .5s forwards;
+    z-index: 100;
+}
+

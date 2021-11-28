@@ -1,0 +1,106 @@
+@import "./base.css";
+@import "./layouts/header.css";
+@import "./layouts/footer.css";
+.product-view{
+    display: flex;
+    background-color: #fff;
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+    margin-top: 20px;
+    padding: 50px;
+}
+.product-group__img{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.product__img{
+    height: 300px;
+    box-shadow: rgb(235 235 235) 0px 1px 15px;
+}
+.product__img img{
+    object-fit: contain;
+}
+.product-thumbnail__list{
+    display: flex;
+    margin-top: 10px;
+}
+.product-thumbnail__item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.product-thumbnail__item{
+    width: 100px;
+    height: 100px;
+}
+.product-thumbnail__item--selected{
+    border: 1px solid rgb(151, 151, 151);
+}
+.product-content{
+    flex: 1;
+    margin-left: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.product-content .add-cart{
+    width: max-content;
+    padding:  10px;
+    /* border-radius: 10px; */
+    margin-top: auto;
+}
+.product-content .product-name{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.product-desc{
+    font-size: 1.4rem;
+    color: rgb(158, 158, 158);
+    width: 600px;
+    /* margin: 40px 0 50px 0; */
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 25px;
+    overflow: hidden;;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.product-quantity{
+    display: flex;
+    align-items: center;
+}
+.product-control{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(236, 236, 236);
+    text-align: center;
+}
+.label-control{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    color: #757575;
+    font-weight: bold;
+}
+.product-related__list{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-left: -10px;
+}
+.product-related__item{
+    width: calc(20% - 10px);
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 #ebebeb;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.product-content .product-price{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

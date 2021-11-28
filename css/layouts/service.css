@@ -1,0 +1,32 @@
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-item{
+    width: calc(33.3333% - 20px);
+    padding: 15px 30px;
+    background-color:#fff;
+    box-shadow: 0 1px 0 #ebebeb;
+    border-radius: 4px;
+    display: flex;
+}
+.service-icon{
+    font-size: 4rem;
+    color: #cecece;
+    margin-right: 20px;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+}
+.service-desc{
+    font-size: 1.3rem;
+    color: #cecece;
+}
+.service-caption{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

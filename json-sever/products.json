@@ -1,0 +1,344 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "type": "dog",
+      "name": "Chó Samoyeda",
+      "price": 12000000,
+      "desc": "Chó Samoyed (gọi tắt là Sam) – Nàng Bạch tuyết của xứ sở Bạch Dương. Giống chó này có nguồn gốc từ vùng đất giá lạnh Siberia (Nga). Nhờ vào tính cách thân thiện, ngoại hình trang nhã với bộ lông trắng thời trang, tuyệt đẹp. Samoyed dần trở thành một trong những giống chó được nuôi phổ biến nhất trên thế giới. Giống chó này du nhập vào Việt Nam được hơn 10 năm. Chúng nhanh chóng chiếm được thiện cảm từ cộng đồng nuôi chó cảnh và trở thành giống chó được nuôi thịnh hành ở nước ta.",
+      "img": "../img/samoyeda.png",
+      "number": 5
+    },
+    {
+      "id": 23,
+      "type": "cat",
+      "name": "Mèo Scottish tai cụp",
+      "price": 15000000,
+      "desc": "Mèo scottish là một trong những giống mèo được yêu thích nhất hiện nay. Cũng là loài được lựa chọn để phối giống với nhiều loài mèo quý khác, tạo nên những chú mèo mang bộ gen lạ, độc đáo.",
+      "img": "../img/meoscottish.png",
+      "number": 5
+    },
+    {
+      "id": 2,
+      "type": "dog",
+      "name": "Chó Pomeranian",
+      "price": 15000000,
+      "desc": "Chó Phốc sóc là một giống chó cảnh cỡ nhỏ, có ngoại hình xinh xắn, có nguồn gốc từ châu Âu, chúng nổi tiếng và được ưa chuộng bởi ngoại hình bắt mắt của mình. Với tiếng sủa vang rền, dai dẳng không dứt khả năng cảnh giác cao độ, những con chó này lại có thể trở thành những vật canh giữ cửa tốt.",
+      "img": "../img/pomeranian.png",
+      "number": 5
+    },
+    {
+      "id": 3,
+      "type": "dog",
+      "name": "Chó Chow Chow",
+      "price": 11000000,
+      "desc": "Mọi người thường gọi Chow Chow với cái tên ngắn gọn là Chow. Giống cảnh khuyển này có nguồn gốc từ Trung Quốc, xuất hiện vào thời nhà Đường. Người Trung tin rằng, Chow Chow là biểu tượng của sự may mắn, ôn hoà. Vì thế mà có rất nhiều bức tượng Chow được đặt ở trước cửa chùa, cửa cung đình.",
+      "img": "../img/chowchow.png",
+      "number": 5
+    },
+    {
+      "id": 4,
+      "type": "dog",
+      "name": "Chó Shar Pei",
+      "price": 10000000,
+      "desc": "Shar Pie mang đặc điểm khác lạ với nhiều giống chó trên Thế Giới. Chúng gồm hai loại là giống Shar Pei vẻ ngoài thanh thoát và Shar Pei có nhiều lớp thịt thừa. Thường tại Trung Quốc giống chó có nhiều lớp thịt thừa phổ biến được nuôi ở đây. Shar Pei nhìn rất đáng yêu và xinh xắn tựa như những chú hà mã",
+      "img": "../img/sharpei.png",
+      "number": 5
+    },
+    {
+      "id": 5,
+      "type": "dog",
+      "name": "Chó Doberman",
+      "price": 10000000,
+      "desc": "Chó Doberman là giống chó nổi tiếng đến từ Đức và đã được nuôi dưỡng trên khắp Thế giới như một loài chó giữ nhà, canh gác hoặc làm nghiệp vụ. Đây là giống chó không dễ để nhân giống và cũng khó nuôi, chúng cần được chăm sóc và huấn luyện chu đáo nên giá thành không hề rẻ. ",
+      "img": "../img/doberman.png",
+      "number": 5
+    },
+    {
+      "id": 6,
+      "type": "dog",
+      "name": "Chó Rottweiler",
+      "price": 17500000,
+      "desc": "Rottweiler được mang tên một thị trấn miền nam nước Đức, nơi phát hiện ra giống chó này.Giống chó Rottweiler có nguồn gốc từ giống chó ngao Ý. Chúng được lai tạo tại thành phố Rottweil bang Wurttemberg, Đức và xuất hiện lần đầu tiên vào năm 1800, giống chó mới này dần dần trở nên nổi tiếng vào những năm giữa thể kỷ 20 nhờ các nhà lai tạo giống ở Stuttgart.",
+      "img": "../img/rottweiler.png",
+      "number": 5
+    },
+    {
+      "id": 7,
+      "type": "dog",
+      "name": "Chó Bichon Frise",
+      "price": 18900000,
+      "desc": "Chó Bichon Frise có nguồn gốc từ loài chó Barbet hoặc Water Spaniel và chó săn vịt.Từ bichon xuất phát từ tiếng Pháp Trung cổ bichon (\"chó nhỏ lông dài\")",
+      "img": "../img/bitchonfrise.png",
+      "number": 5
+    },
+    {
+      "id": 8,
+      "type": "dog",
+      "name": "Chó Beagle",
+      "price": 18900000,
+      "desc": "Thuộc vào loài chó săn thỏ cỡ nhỏ, Beagle là giống chó được rất nhiều người yêu thích và lựa chọn để nuôi. Beagle là loài chó rất đáng yêu và còn thân thiện với mọi người, chúng có thể trông nhà và cũng có thể chơi đùa với trẻ em mà không gây nguy hiểm như những loài chó họ bull.",
+      "img": "../img/beagle.png",
+      "number": 5
+    },
+    {
+      "id": 9,
+      "type": "dog",
+      "name": "Chó Bern",
+      "price": 7900000,
+      "desc": "Những con chó núi Bernese là hậu duệ của chó sói được thuần hóa để nuôi trong các trang trại ngày xưa với mục đích bảo vệ và kéo xe. Các loại ban đầu được gọi là Godly, được lại tạo ở một thị trấn nhỏ tên là Dürrbach, nơi những loại chó lớn thường được nuôi thường xuyên. Ở Harrisburg, người ta sử dụng những con chó như là công cụ chiến tranh.",
+      "img": "../img/bern.png",
+      "number": 5
+    },
+    {
+      "id": 10,
+      "type": "dog",
+      "name": "Chó Golden Retriever",
+      "price": 7900000,
+      "desc": "Golden Retriever là giống chó sở hữu thân hình cân đối, khỏe mạnh. Chúng có bộ lông màu từ vàng kem đến vàng nâu (màu đỏ không được công nhận). Bộ lông được cấu tạo bởi lớp lông không thấm nước bên ngoài và một lớp lông mịn dày bên trong. Chúng có cái đầu to, mõm hơi vát nhưng kèm với bộ hàm rộng và rất khỏe cùng với hàm răng sắc bén. Mũi có màu đen, mắt biểu cảm màu nâu với viền sẫm. Đôi tai cỡ nhỡ, cụp. Cổ dài, khỏe và khá cơ bắp. Ngực rộng. Đuôi dài và không bao giờ cong.",
+      "img": "../img/golden.png",
+      "number": 5
+    },
+    {
+      "id": 11,
+      "type": "dog",
+      "name": "Chó Poodle",
+      "price": 10900000,
+      "desc": "Là một giống chó săn dùng để săn các loại thủy cầm trong đó chủ yếu là vịt. Ngày nay giống chó này được lai tạo để trở thành dòng chó cảnh. Tên \"Poodle\" của chúng xuất phát từ chữ \"Pudel\" trong tiếng Đức, nghĩa là\"thợ lặn\" hay là \"chó lội nước\" và bộ lông của chúng có thể đè bẹp cơ thể khi ở trong nước.",
+      "img": "../img/poodle.png",
+      "number": 5
+    },
+    {
+      "id": 12,
+      "type": "dog",
+      "name": "Chó Bulldog",
+      "price": 19200000,
+      "desc": "Đây là một loại chó Bun có kích thước nhỏ, nhưng trông cường tráng, cứng cáp. Thân mình rất chắc chắn và gọn gàng, núc níc, dáng đi thẳng thắn và rất nhẹ nhàng. Chúng cao 12 inches (30 cm). Về kích thước đối với chó cái từ 19-22 pounds (9–12 kg) và chó đực từ 22-28 pounds (10–14 kg). Đối với chó Bun Pháp, chiều cao không quan trọng so với sự cân đối của cơ thể",
+      "img": "../img/bulldog.png",
+      "number": 5
+    },
+    {
+      "id": 13,
+      "type": "dog",
+      "name": "Chó Chihuahua",
+      "price": 21500000,
+      "desc": "Chihuahua là giống chó nhỏ con có đầu tròn và mõm ngắn. Nó có đôi mắt to tròn, màu sẫm gần như đen, đôi khi là màu đỏ ruby sẫm. Đôi tai đặc hiệu to đùng luôn giữ vểnh. Cún con của Chihuahua ở phần thóp trên đỉnh đầu có một hõm mềm. Lỗ thủng này khi cún lớn lên sẽ được xương sọ che phủ hết. Thân hình chắc chắn, dài hơn so với chiều cao, đuôi uốn cong trên lưng hoặc vắt sang một bên.",
+      "img": "../img/chihuahua.png",
+      "number": 5
+    },
+    {
+      "id": 14,
+      "type": "dog",
+      "name": "Chó Lạp Xưởng",
+      "price": 2000000,
+      "desc": "Là giống chó thân dài, ngực nở, bụng hóp, hoạt bát, rắn chắc với 4 chân rất ngắn. Chúng tạo cho giống chó này một dáng vẻ độc đáo và đầy chất thông thái. Đầu thuôn dài, mắt hơi lồi, mõm dài với bộ hàm khoẻ mạnh cùng những chiếc răng vô cùng sắc bén. Mắt có hình ôvan, màu đỏ sẫm hoặc nâu đen, rất năng động và thân thiện. Tai khá linh hoạt và luôn buông lơ lửng ở hai bên má. Lông của giống chó lông ngắn mượt mà, bóng bẩy và đồng nhất.",
+      "img": "../img/lapxuong.png",
+      "number": 5
+    },
+    {
+      "id": 15,
+      "type": "dog",
+      "name": "Chó Pug",
+      "price": 2500000,
+      "desc": "Có nguồn gốc từ châu Á khoảng 400 trước Công nguyên. Tuy vậy hiện nay nguồn gốc của Pug vẫn còn là vấn đề tranh cãi. Một số chuyên gia cho rằng Pug có ko ai biết gốc từ vùng Viễn Đông, được du nhập bởi các nhà lái buôn Hà Lan. Họ cũng cho rằng có thể đây là một nhánh của giống chó Bắc Kinh lông ngắn. Tuy vậy có ý kiến khác cho rằng Pug là kết quả của việc lai tạo giống chó Bulldog bé.",
+      "img": "../img/pug.png",
+      "number": 5
+    },
+    {
+      "id": 16,
+      "type": "dog",
+      "name": "Chó Shiba Inu",
+      "price": 27500000,
+      "desc": "Chó Shiba Inu là giống chó được nhiều người yêu thích bởi biểu cảm dễ thương trên khuôn mặt, sự thông minh và trung thành tuyệt đối với chủ nhân. Hiện nay, Shiba Inu được nuôi khá phổ biến nhưng không phải ai cũng biết cách chăm sóc chó shiba.",
+      "img": "../img/shiba.png",
+      "number": 5
+    },
+    {
+      "id": 17,
+      "type": "dog",
+      "name": "Chó Alaska",
+      "price": 19800000,
+      "desc": "Alaska hiện đang là một trong những giống chó cảnh được ưa chuộng nhất tại Việt Nam hiện nay. Với vẻ ngoài cực kute, đặc biệt là với chó con dưới 6 tháng tuổi. Các em Alaska xinh đẹp, bông xù và cực kỳ ngốc nghếch một cách dễ thương. Chúng dễ dàng “đốn tim” bạn ngay lần đầu gặp em ấy.",
+      "img": "../img/alaska.png",
+      "number": 5
+    },
+    {
+      "id": 18,
+      "type": "dog",
+      "name": "Chó Corgi",
+      "price": 10000000,
+      "desc": "Giống chó Corgi (hay còn được gọi là Corgi Welsh – chó chân ngắn), Có xuất sứ từ xứ Wales thuộc nước Anh. Là một trong những giống chó được nuôi phổ biến nhất thế giới do mệnh doanh là chú lùn đáng yêu.",
+      "img": "../img/corgi.png",
+      "number": 5
+    },
+    {
+      "id": 19,
+      "type": "cat",
+      "name": "Mèo Tam Thể",
+      "price": 15000000,
+      "desc": "Mèo tam thể một giống mèo được nhiều người muốn sở hữu vì độ quý hiếm của chúng. Không chỉ hot về độ quý hiếm mà còn hot về vận may cho chủ nhân của chúng.Với bộ lông mang ba màu sắc khác nhau trông chúng rất độc đáo, đẹp và thu hút.",
+      "img": "../img/meotamthe.png",
+      "number": 5
+    },
+    {
+      "id": 20,
+      "type": "cat",
+      "name": "Mèo Anh lông ngắn",
+      "price": 10000000,
+      "desc": "Mèo Anh lông ngắn hay còn được gọi tắt là mèo Aln. Có nguồn gốc từ vương quốc Anh với tên gọi quốc tế là British Shorthair. Mèo Anh lông ngắn Aln là giống mèo được ưa chuộng và được nhiều người mua bán nhất không chỉ tại Việt Nam mà còn trên toàn thế giới.",
+      "img": "../img/meoanhlongngan.png",
+      "number": 5
+    },
+    {
+      "id": 21,
+      "type": "cat",
+      "name": "Mèo Scottish",
+      "price": 27000000,
+      "desc": "Mèo scottish là một trong những giống mèo được yêu thích nhất hiện nay. Cũng là loài được lựa chọn để phối giống với nhiều loài mèo quý khác, tạo nên những chú mèo mang bộ gen lạ, độc đáo.",
+      "img": "../img/meoscottish.png",
+      "number": 5
+    },
+    {
+      "id": 22,
+      "type": "cat",
+      "name": "Mèo Munchkin",
+      "price": 15000000,
+      "desc": "Mèo Munchkin là một giống mèo khá mới từ Mỹ. Chính vì thế, Munchkin còn khá mới lạ ở Việt Nam. Đối với những người yêu mèo, Munchkin cat rất được yêu thích, ưa chuộng bởi 4 chân ngắn chũn chĩn với khuôn mặt tròn ngây thơ vô cùng.",
+      "img": "../img/meomunchkin.png",
+      "number": 5
+    },
+    {
+      "id": 24,
+      "type": "cat",
+      "name": "Mèo Xiêm",
+      "price": 10000000,
+      "desc": "Giống chó Corgi (hay còn được gọi là Corgi Welsh – chó chân ngắn), Có xuất sứ từ xứ Wales thuộc nước Anh. Là một trong những giống chó được nuôi phổ biến nhất thế giới do mệnh doanh là chú lùn đáng yêu.",
+      "img": "../img/meoxiem.png",
+      "number": 5
+    },
+    {
+      "id": 25,
+      "type": "cat",
+      "name": "Mèo Bengal",
+      "price": 15000000,
+      "desc": "Mèo tam thể một giống mèo được nhiều người muốn sở hữu vì độ quý hiếm của chúng. Không chỉ hot về độ quý hiếm mà còn hot về vận may cho chủ nhân của chúng.Với bộ lông mang ba màu sắc khác nhau trông chúng rất độc đáo, đẹp và thu hút.",
+      "img": "../img/meobengail.png",
+      "number": 5
+    },
+    {
+      "id": 26,
+      "type": "cat",
+      "name": "Mèo Himalaya",
+      "price": 5000000,
+      "desc": "Giống mèo Himalayan có bộ lông dài mịn và rất dày rậm, bộ lông của chúng thường có màu chủ đạo là màu trắng hoặc kem với những vệt màu đặc trưng như nâu sẫm, nâu, xanh đậm, đỏ, nâu đốm, màu hoa cà, màu hỗn hợp,các vệt màu này chỉ xuất hiện ở tai, chân, cẳng chân, đuôi và phần mặt mèo. Giống mèo Himalayan có bộ lông dài và dày đặc nên việc chăm sóc lông cho chúng cũng mất khá nhiều thời gian, lông của chúng cần được chải chuốt để lấy đi bụi bẩn và lông chết hàng ngày.",
+      "img": "../img/himalaya.png",
+      "number": 5
+    },
+    {
+      "id": 27,
+      "type": "cat",
+      "name": "Mèo Ragdoll",
+      "price": 35000000,
+      "desc": "Giống mèo Ragdoll là một trong những loài mèo nhà to lớn nhất với thân hình tráng kiện, tầm vóc lớn và các chân cân xứng. Một con mèo cái trưởng thành cân nặng chừng 8 pound (3,6 kg) tới 15 pound (6,8 kg). Con đực lớn hơn khá nhiều, cân nặng từ 12 pound (5,4 tới 20 pound (9,1 kg) hay thậm chí hơn nữa.",
+      "img": "../img/ragdoll.png",
+      "number": 5
+    },
+    {
+      "id": 28,
+      "type": "cat",
+      "name": "Mèo Bombay",
+      "price": 17000000,
+      "desc": "Bombay là một giống mèo nhà lông ngắn, có mối liên hệ mật thiết với giống mèo Miến Điện. Mèo Bombay nổi bật với lớp lông đen tuyền, đệm chân đen, mũi và miệng đen, cùng đôi mắt vàng đồng hoặc xanh lá. Bộ lông đen bóng mượt, ôm sát thân mèo, thường nhuộm đen từ gốc tới ngọn và gần như không hề bị phai màu.Mèo Bombay có thân hình tương vạm vỡ",
+      "img": "../img/bombay.png",
+      "number": 5
+    },
+    {
+      "id": 29,
+      "type": "cat",
+      "name": "Mèo Balinese",
+      "price": 17000000,
+      "desc": "Giống mèo Balinese còn gọi là Bali hay loài mèo Xiêm lông dài, được đặt tên theo các vũ công duyên dáng trên đảo Bali của Indonesia. Giống mèo này có nguồn gốc ở Hoa Kỳ trong những năm đầu của thế kỷ 19. Nhìn chung giống mèo này bắt nguồn từ một giống mèo lông dài biến đổi tự nhiên của mèo Xiêm",
+      "img": "../img/balinese.png",
+      "number": 5
+    },
+    {
+      "id": 30,
+      "type": "cat",
+      "name": "Mèo Nga mắt xanh",
+      "price": 20000000,
+      "desc": "mèo Russian Blue có nguồn gốc xuất xứ từ Nga và được các nhà thám hiểm phát hiện ra vào cuối thế kỷ 19. Tại cuộc triển lãm mèo của London vào năm 1875, chúng được giới thiệu rộng rãi và gây được sự chú ý của nhiều quan khách trong cuộc triển lãm này. Từ đó chúng trở nên nổi tiếng khắp nơi và được hiệp hội mèo thế giới công nhận vào năm 1800. Ngày nay Russian Blue trở thành giống mèo quý được săn đón bậc nhất.",
+      "img": "../img/meonga.png",
+      "number": 5
+    },
+    {
+      "id": 31,
+      "type": "cat",
+      "name": "Mèo rừng Na Uy",
+      "price": 22000000,
+      "desc": "Những em mèo rừng Na uy là một giống tự nhiên, chúng không phải là lai giữa bất kì mèo nào. Được cho là những hậu duệ của mèo nhà từ La Mã được gửi đến châu âu. Trải qua khí hậu lạnh tại Na Uy, chúng thích nghi và trở thành giống mèo rừng Na Uy ngày nay.",
+      "img": "../img/meonauy.png",
+      "number": 5
+    },
+    {
+      "id": 32,
+      "type": "hamster",
+      "name": "Hamster Syria",
+      "price": 22000000,
+      "desc": "Những chú Hamster Syria sở hữu bộ lông mang màu sắc đa dạng, với hơn 50 màu khác nhau có thể lựa chọn chắc chắn giúp người nuôi thoải mái cân nhắc theo mong muốn của cá nhân mình. Xét về hình thể thì trong số các loại chuột Hamster nó có hình dáng khá lớn khi trưởng thành, đạt chiều dài từ 10 – 18cm tùy thuộc vào độ tuổi và giới tính. Đặc biệt, tuổi thọ của một chú Hamster gấu này có thể duy trì trung bình từ 2 – 3 năm, cá biệt có những con sống tới hơn 4 năm.",
+      "img": "../img/syria.png",
+      "number": 5
+    },
+    {
+      "id": 33,
+      "type": "hamster",
+      "name": "Hamster Campbell Nga",
+      "price": 25000000,
+      "desc": "Là một loài chuột Hamster khá dữ nên việc bắt hay bế chúng sẽ khó khăn hơn rất nhiều. Đối với những ai không đủ tự tin sẽ cảm thấy sợ hãi, bất an khi bế chúng. Tuy nhiên, nếu là người có kinh nghiệm thì đây là lựa chọn thú vị không thể bỏ qua",
+      "img": "../img/campbell.png",
+      "number": 5
+    },
+    {
+      "id": 34,
+      "type": "hamster",
+      "name": "Hamster Winter White Nga",
+      "price": 22000000,
+      "desc": "thì Dwarf Hamster Winter White Nga sống bầy đàn, có thể hoạt động cả ngày lẫn đêm. Nét đặc trưng trong tính cách là nó khá hiền lành và thân thiện. Chính vì thế có thể dễ dàng nuôi, phù hợp với bất kỳ ai. Với thân hình nhỏ cùng sự nhanh nhẹn của mình thì khi nuôi Dwarf Hamster Winter White Nga bạn cần đặc biệt cẩn trọng mới có thể bế và giữ chúng khi muốn.",
+      "img": "../img/dwarf.png",
+      "number": 5
+    },
+    {
+      "id": 35,
+      "type": "hamster",
+      "name": "Hamster Roborovski",
+      "price": 22000000,
+      "desc": "Đặc điểm nổi bật của chuột Dwarf Hamster Roborovski là sở hữu thân hình nhỏ nhắn, được  biết là thân hình nhỏ nhất trong số các loại chuột Hamster hiện nay, đồng thời có tốc độ cực nhanh. Bởi thế, việc bắt và bế chúng thông thường khá khó khăn cần có kinh nghiệm và một chút khéo léo mới thực hiện được",
+      "img": "../img/Roborovski.png",
+      "number": 5
+    },
+    {
+      "id": 36,
+      "type": "hamster",
+      "name": "Hamster Bear",
+      "price": 22000000,
+      "desc": "Đây cũng chính là loại được yêu thích nhất cả ở Việt Nam và trên thế giới, sở hữu ngoại hình mập mạp, dễ nuôi và thân thiện, chúng được khoảng 70% người nuôi Hamster lựa chọn. Hamster bear có nhiều bé biết giả chết rất đáng yêu",
+      "img": "../img/bear.png",
+      "number": 5
+    }
+  ],
+  "category": [
+    {
+      "id": "cat",
+      "name": "Mèo"
+    },
+    {
+      "id": "dog",
+      "name": "Chó"
+    },
+    {
+      "id": "hamster",
+      "name": "Hamster"
+    }
+  ],
+  "account": [],
+  "bills": []
+}
